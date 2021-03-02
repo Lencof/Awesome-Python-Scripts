@@ -1,13 +1,14 @@
 from tkinter import *
-import parser
-import math
+import parser # use parser
+import math # use math
 
 # Parser help us to solve mathematical operation
 
+# create window
 root = Tk()
-root.title('CALCULATOR')
-root.geometry('670x450')
-root.configure(bg='Blue')
+root.title('CALCULATOR') # your name calculator
+root.geometry('670x450') # your size
+root.configure(bg='Blue') # your color
 
 # get the user input and place it in the text field
 i = 0
