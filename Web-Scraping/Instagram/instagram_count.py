@@ -1,5 +1,8 @@
+# __Author__ankitdobhal__ and __Lencof__
+# instagram_count.py
+
 from bs4 import BeautifulSoup
-import requests
+import requests # use requests
 
 #The instagram URL
 URL="https://www.instagram.com/{}/"
