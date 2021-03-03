@@ -1,5 +1,5 @@
 # Importing Libraries 
-import requests 
+import requests # use requests
 from bs4 import BeautifulSoup 
 import texttable as tt
 
@@ -48,5 +48,4 @@ table.set_cols_align(('c', 'c', 'c', 'c'))  # 'l' denotes left, 'c' denotes cent
 table.header((' Country ', ' Number of cases ', ' Deaths ', ' Continent ')) 
 
 # Printing the created table  
-print(table.draw()) 
-
+print(table.draw()) # close()
